@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MRITestScripts">
+              <span class="suite-name border-failed">MRITestScripts</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MRITestScripts">
+                    <span>C:\Users\GDeo\MRI Automation\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MRITestScripts">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MRITestScripts">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MRITestScripts">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MRITestScripts">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MRITestScripts">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MRITestScripts">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 3 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MRITestScripts" class="hide-methods failed suite-MRITestScripts"> (hide)</a> <!-- hide-methods failed suite-MRITestScripts -->
+                      <a href="#" panel-name="suite-MRITestScripts" class="show-methods failed suite-MRITestScripts"> (show)</a> <!-- show-methods failed suite-MRITestScripts -->
+                    </span>
+                    <div class="method-list-content failed suite-MRITestScripts">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MRITestScripts" title="testscripts.MRI.TC_MRI_003_VacateThisSuite" hash-for-method="runTC_MRI_003_VacateThisSuite(Instance1, LOCAL, WINDOWS)">runTC_MRI_003_VacateThisSuite(Instance1, LOCAL, WINDOWS)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MRITestScripts" title="testscripts.MRI.TC_MRI_001_RenewThisLease" hash-for-method="runTC_NewApplication_MRI_001(Instance1, LOCAL, WINDOWS)">runTC_NewApplication_MRI_001(Instance1, LOCAL, WINDOWS)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MRITestScripts" title="testscripts.MRI.TC_MRI_002_TransferToAnotherSuite" hash-for-method="runTC_NewApplication_MRI_001(Instance1, LOCAL, WINDOWS)">runTC_NewApplication_MRI_001(Instance1, LOCAL, WINDOWS)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MRITestScripts -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MRITestScripts" class="panel MRITestScripts">
+          <div class="suite-MRITestScripts-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testscripts.MRI.TC_MRI_002_TransferToAnotherSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTC_NewApplication_MRI_001(Instance1, LOCAL, WINDOWS)">
+                  </a> <!-- runTC_NewApplication_MRI_001(Instance1, LOCAL, WINDOWS) -->
+                  <span class="method-name">runTC_NewApplication_MRI_001</span>
+                  <span class="parameters">(Instance1, LOCAL, WINDOWS)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;TX717-7310MSL&apos;, ip: &apos;10.45.41.66&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:178)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:166)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:174)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:120)
+	at com.cognizant.framework.selenium.WebDriverFactory.getWebDriver(WebDriverFactory.java:58)
+	at com.cognizant.Craft.DriverScript.initializeWebDriver(DriverScript.java:268)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:147)
+	at testscripts.MRI.TC_MRI_002_TransferToAnotherSuite.runTC_NewApplication_MRI_001(TC_MRI_002_TransferToAnotherSuite.java:34)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:3920/status] to be available after 20003 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:107)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:175)
+	... 26 more
+Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:143)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:80)
+	... 27 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
+	... 28 more
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MRITestScripts-class-failed -->
+          <div class="suite-MRITestScripts-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testscripts.MRI.TC_MRI_001_RenewThisLease</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTC_NewApplication_MRI_001(Instance1, LOCAL, WINDOWS)">
+                  </a> <!-- runTC_NewApplication_MRI_001(Instance1, LOCAL, WINDOWS) -->
+                  <span class="method-name">runTC_NewApplication_MRI_001</span>
+                  <span class="parameters">(Instance1, LOCAL, WINDOWS)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: javax.net.ssl.SSLProtocolException: Data received in non-data state: 6
+	at io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:262)
+	at io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:765)
+	at io.github.bonigarcia.wdm.BrowserManager.setup(BrowserManager.java:725)
+	at com.cognizant.framework.selenium.WebDriverFactory.getWebDriver(WebDriverFactory.java:57)
+	at com.cognizant.Craft.DriverScript.initializeWebDriver(DriverScript.java:268)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:147)
+	at testscripts.MRI.TC_MRI_001_RenewThisLease.runTC_NewApplication_MRI_001(TC_MRI_001_RenewThisLease.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLProtocolException: Data received in non-data state: 6
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1119)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at org.apache.http.impl.conn.LoggingInputStream.read(LoggingInputStream.java:87)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.read(SessionInputBufferImpl.java:200)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:178)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:137)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:150)
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:2146)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2102)
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:2123)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2078)
+	at org.apache.commons.io.FileUtils.copyToFile(FileUtils.java:1554)
+	at org.apache.commons.io.FileUtils.copyInputStreamToFile(FileUtils.java:1528)
+	at io.github.bonigarcia.wdm.Downloader.download(Downloader.java:109)
+	at io.github.bonigarcia.wdm.BrowserManager.manage(BrowserManager.java:255)
+	... 19 more
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MRITestScripts-class-failed -->
+          <div class="suite-MRITestScripts-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testscripts.MRI.TC_MRI_003_VacateThisSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTC_MRI_003_VacateThisSuite(Instance1, LOCAL, WINDOWS)">
+                  </a> <!-- runTC_MRI_003_VacateThisSuite(Instance1, LOCAL, WINDOWS) -->
+                  <span class="method-name">runTC_MRI_003_VacateThisSuite</span>
+                  <span class="parameters">(Instance1, LOCAL, WINDOWS)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;TX717-7310MSL&apos;, ip: &apos;10.45.41.66&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:178)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:166)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:174)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:120)
+	at com.cognizant.framework.selenium.WebDriverFactory.getWebDriver(WebDriverFactory.java:58)
+	at com.cognizant.Craft.DriverScript.initializeWebDriver(DriverScript.java:268)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:147)
+	at testscripts.MRI.TC_MRI_003_VacateThisSuite.runTC_MRI_003_VacateThisSuite(TC_MRI_003_VacateThisSuite.java:34)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:15837/status] to be available after 20002 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:107)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:175)
+	... 26 more
+Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:143)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:80)
+	... 27 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
+	... 28 more
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MRITestScripts-class-failed -->
+        </div> <!-- panel MRITestScripts -->
+        <div panel-name="test-xml-MRITestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\GDeo\MRI Automation\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;MRITestScripts&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test name=&quot;TestSuite1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testscripts.MRI.TC_MRI_001_RenewThisLease&quot;/&gt;
+      &lt;class name=&quot;testscripts.MRI.TC_MRI_002_TransferToAnotherSuite&quot;/&gt;
+      &lt;class name=&quot;testscripts.MRI.TC_MRI_003_VacateThisSuite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestSuite1 --&gt;
+&lt;/suite&gt; &lt;!-- MRITestScripts --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MRITestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MRITestScripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestSuite1 (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MRITestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MRITestScripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MRITestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MRITestScripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MRITestScripts');
+function tableData_MRITestScripts() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runTC_NewApplication_MRI_001')
+data.setCell(0, 2, 'testscripts.MRI.TC_MRI_002_TransferToAnotherSuite')
+data.setCell(0, 3, 22094);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runTC_MRI_003_VacateThisSuite')
+data.setCell(1, 2, 'testscripts.MRI.TC_MRI_003_VacateThisSuite')
+data.setCell(1, 3, 20283);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runTC_NewApplication_MRI_001')
+data.setCell(2, 2, 'testscripts.MRI.TC_MRI_001_RenewThisLease')
+data.setCell(2, 3, 1793);
+window.suiteTableData['MRITestScripts']= { tableData: data, tableDiv: 'times-div-MRITestScripts'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-MRITestScripts">
+              </div> <!-- times-div-MRITestScripts -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MRITestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MRITestScripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MRITestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testscripts.MRI.TC_MRI_002_TransferToAnotherSuite</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpTestSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testscripts.MRI.TC_MRI_003_VacateThisSuite</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpTestSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MRITestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.MRI.TC_MRI_001_RenewThisLease</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpTestSuite(org.testng.TestRunner@1cab0bfb)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTC_NewApplication_MRI_001(Instance1, LOCAL, WINDOWS)</span>
+                <span class="method-start">145 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.MRI.TC_MRI_002_TransferToAnotherSuite</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTC_NewApplication_MRI_001(Instance1, LOCAL, WINDOWS)</span>
+                <span class="method-start">145 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTestRunner</span>
+                <span class="method-start">145 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.MRI.TC_MRI_001_RenewThisLease</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTestRunner</span>
+                <span class="method-start">145 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.MRI.TC_MRI_003_VacateThisSuite</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTC_MRI_003_VacateThisSuite(Instance1, LOCAL, WINDOWS)</span>
+                <span class="method-start">1956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTestRunner</span>
+                <span class="method-start">1956 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.MRI.TC_MRI_001_RenewThisLease</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownTestSuite</span>
+                <span class="method-start">22338 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

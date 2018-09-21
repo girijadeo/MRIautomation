@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MRITestScripts" parallel="methods" thread-count="2">
+	<test name="TestSuite1">
+		<classes>
+		
+<class name="testscripts.MRI.TC_LaunchGoogle_Pass01"/>
+<class name="testscripts.MRI.TC_LaunchGoogle_Pass02"/>
+<class name="testscripts.MRI.TC_LaunchGoogle_Fail03"/>
+
+
+		</classes>
+	</test>
+</suite>
+

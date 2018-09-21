@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 7.667 sec <<< FAILURE! - in TestSuite
+runTC_LaunchGoogle_Pass02(testscripts.MRI.TC_LaunchGoogle_Pass02)  Time elapsed: 0.35 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'TX717-7310MSL', ip: '10.45.41.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at testscripts.MRI.TC_LaunchGoogle_Pass02.runTC_LaunchGoogle_Pass02(TC_LaunchGoogle_Pass02.java:31)
+
+runTC_LaunchGoogle_Fail03(testscripts.MRI.TC_LaunchGoogle_Fail03)  Time elapsed: 5.356 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.SocketException: Connection reset
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'TX717-7310MSL', ip: '10.45.41.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: InternetExplorerDriver
+	at testscripts.MRI.TC_LaunchGoogle_Fail03.runTC_LaunchGoogle_Fail03(TC_LaunchGoogle_Fail03.java:31)
+Caused by: java.net.SocketException: Connection reset
+	at testscripts.MRI.TC_LaunchGoogle_Fail03.runTC_LaunchGoogle_Fail03(TC_LaunchGoogle_Fail03.java:31)
+
+runTC_LaunchGoogle_Pass01(testscripts.MRI.TC_LaunchGoogle_Pass01)  Time elapsed: 5.412 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.SocketException: Connection reset
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'TX717-7310MSL', ip: '10.45.41.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: InternetExplorerDriver
+	at testscripts.MRI.TC_LaunchGoogle_Pass01.runTC_LaunchGoogle_Pass01(TC_LaunchGoogle_Pass01.java:31)
+Caused by: java.net.SocketException: Connection reset
+	at testscripts.MRI.TC_LaunchGoogle_Pass01.runTC_LaunchGoogle_Pass01(TC_LaunchGoogle_Pass01.java:31)
+

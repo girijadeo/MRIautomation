@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [MRITestScripts]" parallel="methods">
+  <test name="TestSuite1">
+    <classes>
+      <class name="testscripts.MRI.TC_MRI_001_RenewThisLease"/>
+      <class name="testscripts.MRI.TC_MRI_002_TransferToAnotherSuite"/>
+      <class name="testscripts.MRI.TC_MRI_003_VacateThisSuite"/>
+    </classes>
+  </test> <!-- TestSuite1 -->
+  <test name="TestSuite1(failed)" parallel="methods">
+    <classes>
+      <class name="testscripts.MRI.TC_MRI_002_TransferToAnotherSuite">
+        <methods>
+          <include name="setUpTestRunner"/>
+          <include name="runTC_NewApplication_MRI_001" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testscripts.MRI.TC_MRI_002_TransferToAnotherSuite -->
+      <class name="testscripts.MRI.TC_MRI_001_RenewThisLease">
+        <methods>
+          <include name="runTC_NewApplication_MRI_001" invocation-numbers="0"/>
+          <include name="setUpTestRunner"/>
+          <include name="tearDownTestSuite"/>
+          <include name="setUpTestSuite"/>
+        </methods>
+      </class> <!-- testscripts.MRI.TC_MRI_001_RenewThisLease -->
+      <class name="testscripts.MRI.TC_MRI_003_VacateThisSuite">
+        <methods>
+          <include name="setUpTestRunner"/>
+          <include name="runTC_MRI_003_VacateThisSuite" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testscripts.MRI.TC_MRI_003_VacateThisSuite -->
+    </classes>
+  </test> <!-- TestSuite1(failed) -->
+</suite> <!-- Failed suite [MRITestScripts] -->

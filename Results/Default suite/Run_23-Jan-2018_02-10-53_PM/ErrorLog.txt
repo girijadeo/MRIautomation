@@ -1,0 +1,13 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jan 23, 2018 2:13:37 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (java.net.SocketException) caught when processing request to {s}->https://chromedriver.storage.googleapis.com:443: Software caused connection abort: socket write error
+Jan 23, 2018 2:13:37 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://chromedriver.storage.googleapis.com:443
+Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 20420
+Only local connections are allowed.
+Jan 23, 2018 2:13:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Jan 23, 2018 2:14:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS

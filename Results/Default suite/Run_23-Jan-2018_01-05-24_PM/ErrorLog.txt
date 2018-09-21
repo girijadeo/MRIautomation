@@ -1,0 +1,9 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jan 23, 2018 1:19:42 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (java.net.SocketException) caught when processing request to {s}->https://chromedriver.storage.googleapis.com:443: Software caused connection abort: socket write error
+Jan 23, 2018 1:19:42 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://chromedriver.storage.googleapis.com:443
+Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 48161
+Only local connections are allowed.

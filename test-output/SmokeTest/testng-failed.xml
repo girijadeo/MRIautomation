@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [SmokeTest]" parallel="methods">
+  <test name="SmokeTest">
+    <classes>
+      <class name="testscripts.NewApplication.TC_NewApplication_MRI_001"/>
+    </classes>
+  </test> <!-- SmokeTest -->
+  <test name="SmokeTest(failed)" parallel="methods">
+    <classes>
+      <class name="testscripts.NewApplication.TC_NewApplication_MRI_001">
+        <methods>
+          <include name="setUpTestRunner"/>
+          <include name="tearDownTestSuite"/>
+          <include name="setUpTestSuite"/>
+          <include name="runTC_NewApplication_MRI_001" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testscripts.NewApplication.TC_NewApplication_MRI_001 -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->

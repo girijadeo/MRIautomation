@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [NewApplicationTestScripts]" parallel="methods">
+  <test name="TestSuite1">
+    <classes>
+      <class name="testscripts.MRI.TC_MRI_001_RenewThisLease"/>
+      <class name="testscripts.MRI.TC_MRI_002_TransferToAnotherSuite"/>
+    </classes>
+  </test> <!-- TestSuite1 -->
+</suite> <!-- Failed suite [NewApplicationTestScripts] -->

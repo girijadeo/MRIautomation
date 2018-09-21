@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [NewApplicationTestScripts]" parallel="methods">
+  <test name="TestSuite1">
+    <classes>
+      <class name="testscripts.NewApplication.TC_NewApplication_HomePageValidation"/>
+      <class name="testscripts.NewApplication.TC_NewApplication_Login"/>
+    </classes>
+  </test> <!-- TestSuite1 -->
+  <test name="TestSuite1(failed)" parallel="methods">
+    <classes>
+      <class name="testscripts.NewApplication.TC_NewApplication_HomePageValidation">
+        <methods>
+          <include name="setUpTestRunner"/>
+          <include name="tearDownTestSuite"/>
+          <include name="runTC_NewApplication_HomePageValidation" invocation-numbers="0"/>
+          <include name="setUpTestSuite"/>
+        </methods>
+      </class> <!-- testscripts.NewApplication.TC_NewApplication_HomePageValidation -->
+      <class name="testscripts.NewApplication.TC_NewApplication_Login">
+        <methods>
+          <include name="setUpTestRunner"/>
+          <include name="runTC_NewApplication_Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testscripts.NewApplication.TC_NewApplication_Login -->
+    </classes>
+  </test> <!-- TestSuite1(failed) -->
+</suite> <!-- Failed suite [NewApplicationTestScripts] -->

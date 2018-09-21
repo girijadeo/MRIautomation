@@ -1,0 +1,2 @@
+Jan 31, 2018 2:04:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end

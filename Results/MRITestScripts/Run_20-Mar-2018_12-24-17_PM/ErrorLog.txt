@@ -1,0 +1,9 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Mar 20, 2018 12:24:39 PM org.openqa.selenium.os.UnixProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "C:\Users\GDeo\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver_win32.zip" (in directory "."): CreateProcess error=193, %1 is not a valid Win32 application)
+Mar 20, 2018 12:24:39 PM org.openqa.selenium.os.UnixProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "C:\Users\GDeo\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver_win32.zip" (in directory "."): CreateProcess error=193, %1 is not a valid Win32 application)
+Mar 20, 2018 12:24:59 PM org.openqa.selenium.os.UnixProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "C:\Users\GDeo\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver_win32.zip" (in directory "."): CreateProcess error=193, %1 is not a valid Win32 application)

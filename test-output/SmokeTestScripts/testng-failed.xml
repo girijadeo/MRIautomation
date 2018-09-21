@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [SmokeTestScripts]" parallel="methods">
+  <test name="Test Suite">
+    <classes>
+      <class name="testscripts.NewApplication.TC_NewApplication_HomePageValidation"/>
+      <class name="testscripts.NewApplication.TC_NewApplication_Login"/>
+    </classes>
+  </test> <!-- Test Suite -->
+</suite> <!-- Failed suite [SmokeTestScripts] -->
